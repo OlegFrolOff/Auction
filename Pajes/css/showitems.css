@@ -1,0 +1,57 @@
+.logBlock{
+  display: inline-block;
+}
+
+.logBlockWrap{
+  text-align: right;
+}
+
+#currentUser{
+  color:blue;
+}
+
+header{
+  padding: 10 20;
+  border:1px solid threedface;
+  margin-bottom: 10;
+}
+
+.buttonSet{
+  margin: 5 auto;
+}
+
+select{
+  min-width: 100px;
+}
+
+fieldset{
+  display: inline-block;
+  padding: 15 10 10 10;
+}
+
+.search{
+  margin: 0;
+}
+
+#itemTable > caption{
+  padding:4;
+  text-align: left;
+  color:white;
+  background: rgb(7,70,94);
+  background: linear-gradient(180deg, rgba(7,70,94,1) 11%,
+              rgba(10,111,150,1) 44%, rgba(11,124,167,1) 79%,
+              rgba(7,70,94,1) 100%);
+}
+
+#itemTable{
+
+}
+
+td{
+  text-align: center;
+  padding:3;
+}
+
+td:last-child{
+  max-width: 150px;
+}

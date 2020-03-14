@@ -1,0 +1,32 @@
+<!DOCKTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css\forms.css">
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="icon" href="" type="image/png">
+</head>
+
+<body>
+  <form class="logReg" action="#" method="post">
+    <fieldset>
+      <legend>Login form</legend>
+      <br/>
+      <div class = "inputString">
+        <label for="login">Имя<em style = "color:red">*&emsp;</em></label>
+        <input type="text" name="login" required autocomplete="on" autofocus>
+      </div>
+      <div class = "inputString">
+        <label for="password">Пароль<em style = "color:red">*&emsp;</em></label>
+        <input type="password" name="password" required autocomplete="off">
+      </div>
+      <br/>
+      <div class="buttonSet">
+        <input type="submit" name="signIn" value="Sign In">
+        <input type="button" name="entAsGuest" value="Enter as guest">
+        <input type="button" name="register" value="Register">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>

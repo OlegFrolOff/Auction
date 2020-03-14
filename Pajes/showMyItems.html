@@ -1,0 +1,55 @@
+<!DOCKTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/showitems.css">
+  <meta charset="utf-8">
+  <title>My items</title>
+  <link rel="icon" href="" type="image/png">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="logBlockWrap">
+      <div class="logBlock">
+        <span>You are logged as: <span id="currentUser">Naprimer Andrey</span>&emsp;</span>
+        <button type="button" name="logout" id="logout">Logout</button>
+      </div>
+    </div>
+    <h1>My Items</h1>
+  </header>
+
+  <main>
+    <table id="itemTable" border="1" width="100%" cellspacing="0">
+      <caption>Items</caption>
+      <tr>
+        <th>UID</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Seller</th>
+        <th>Start price</th>
+        <th>Bid inc</th>
+        <th>Best offer</th>
+        <th>Bidder</th>
+        <th>Stop date</th>
+        <th>Bidding</th>
+      </tr>
+      <tbody id="tableContent">
+        <tr>
+          <td>1</td>
+          <td>A parrot</td>
+          <td>Very beatiful bird</td>
+          <td>Mr. Smith</td>
+          <td>10.00</td>
+          <td>1.50</td>
+          <td>15.00</td>
+          <td>Mrs. Jonsen</td>
+          <td>24.11.2007 11:00</td>
+          <td><input type="text" name="bidArea" id="bidArea1">
+            <input type="button" name="button" name="bidButton1" value="Bid">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
